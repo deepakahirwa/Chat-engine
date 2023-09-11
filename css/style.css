@@ -1,0 +1,76 @@
+.logo {
+     display: block;
+     margin: auto;
+     width: 50px;
+     height: 50px;
+}
+
+
+
+.container {
+     max-width: 955px;
+     background-color: rgb(83, 132, 140);
+     border: 2px solid black;
+     border-radius: 10px;
+     margin: auto;
+     height: 60vh;
+     padding: 33px;
+     overflow-y: auto;
+     margin-bottom: 5px;
+}
+
+.chat {
+     margin-top: 5px;
+}
+
+.message {
+     background-color: rgb(69, 179, 179);
+     /* margin-top: 10px; */
+     width: 40%;
+     padding: 10px;
+     margin: 17px 12px;
+     border: 2px solid black;
+     border-radius: 10px;
+}
+
+.left {
+
+     background-color: rgb(71, 92, 110);
+     float: left;
+     clear: both;
+
+}
+
+.right {
+
+     background-color: aliceblue;
+     float: right;
+     clear: both;
+}
+#send-container{
+     display: block;
+     margin: auto;
+     text-align: center;
+     max-width: 985px;
+     width: 100%;
+
+}
+#messageInp{
+     width: 92%;
+     border:2px solid black;
+     border-radius: 6px;
+     height: 34px;
+
+}
+.btn{
+     cursor: pointer;
+     border: 2px solid black;
+     border-radius: 6px;
+     height: 34px;
+
+}
+body {
+     background-image:linear-gradient(rgb(210, 224, 227),rgb(49, 60, 62));
+     /* background-color: rgb(115, 175, 188) */
+     height: 100vh;
+}
